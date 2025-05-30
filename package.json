@@ -22,19 +22,19 @@
     "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
-  },
+                    },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+            },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
+                  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -46,5 +46,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+                  },
+                  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
+  
 }
